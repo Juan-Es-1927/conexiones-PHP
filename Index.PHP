@@ -1,7 +1,7 @@
 <?php
-    include_once("controladores/controlador.usuarios.php");
+    include_once("controladores/controlador.php");
     
-    include_once("modelos/modelo.usuarios.php");
+    include_once("modelos/Modelousuario.php");
     
     include_once("controladores/enrutador.php");
 ?>

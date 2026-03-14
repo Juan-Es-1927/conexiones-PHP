@@ -8,7 +8,7 @@
 
 <h1>MODULO CONSULTAR</h1>
 
-<p>ID       : <?php echo $registro["idUsuario"]; ?></p>
+<p>ID       : <?php echo $registro["idusuario"]; ?></p>
 <p>Cedula   : <?php echo $registro["cedula"]; ?></p>
 <p>Nombre   : <?php echo $registro["nombres"]; ?></p>
 <p>Apellido : <?php echo $registro["apellidos"]; ?></p>

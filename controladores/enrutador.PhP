@@ -4,19 +4,19 @@
         public function cargarVista($vista){
             switch($vista){
                 case "crear":
-                    include_once("vistas/usuarios.crear.php");
+                    include_once("vistas/crear.php");
                     break;
 
                 case "editar":
-                    include_once("vistas/usuarios.editar.php");
+                    include_once("vistas/editar.php");
                     break;
 
                 case "eliminar":
-                    include_once("vistas/usuarios.eliminar.php");
+                    include_once("vistas/eliminar.php");
                     break;                    
 
                 case "consultar":
-                    include_once("vistas/usuarios.consultar.php");
+                    include_once("vistas/consultar.php");
                     break;                    
                 
                 default:
@@ -28,7 +28,7 @@
 
         public function validarVista($variable){
             if (empty($variable)){
-                include_once("vistas/inicio.php");
+                include_once("vistas/Inicio.php");
             }else{
                 return True;
             }

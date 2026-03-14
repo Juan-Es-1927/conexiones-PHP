@@ -1,5 +1,5 @@
 <?php
-include_once("connection.php");
+include_once("conection.php");
 
 class ModeloUsuarios{
     /* atributos */

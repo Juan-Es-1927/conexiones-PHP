@@ -24,7 +24,7 @@
         </thead>
         <tbody>
             <tr>
-                <td><?php echo $registro['idUsuario']?></td>
+                <td><?php echo $registro['idusuario']?></td>
                 <td><?php echo $registro['cedula']?></td>
                 <td><?php echo $registro['nombres']?></td>
                 <td><?php echo $registro['apellidos']?></td>
